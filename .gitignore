@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Rust
+target/
+Cargo.lock
+
+# Node/TypeScript
+node_modules/
+dist/
+*.log
+
+# Go
+*.exe
+*.test
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+*.key
+*.pem
+*.p12
+secrets/
+credentials/
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db

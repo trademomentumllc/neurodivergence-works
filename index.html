@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eight-Layer Quantum-Hardened Security Architecture v2.0</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #0a0e27;
+            color: #e0e0e0;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0; color: white; }
+        .subtitle { color: #f0f0f0; margin-top: 10px; }
+        .security-badge {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .section {
+            background: #1a1f3a;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+        .file-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .file-link {
+            background: #252b4a;
+            padding: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #60a5fa;
+            display: block;
+            transition: all 0.3s;
+        }
+        .file-link:hover {
+            background: #2d3455;
+            transform: translateY(-2px);
+        }
+        .code-badge {
+            background: #7c3aed;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        .formula {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 15px 0;
+            border-left: 3px solid #f59e0b;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔐 Eight-Layer Quantum-Hardened Security Architecture</h1>
+        <div class="subtitle">Version 2.0 | Post-Quantum Cryptography Integration</div>
+        <span class="security-badge">✅ NIST FIPS 203/204/205 Compliant</span>
+        <span class="security-badge">✅ HIPAA §164.312</span>
+        <span class="security-badge">✅ GDPR Article 32</span>
+    </div>
+
+    <div class="section">
+        <h2>📊 System Security Overview</h2>
+        <div class="formula">
+P_breach = 1 - ∏(1 - pᵢ) for i ∈ [1,8]
+         ≈ 0.0605 (6.05% annual breach probability)
+         ≈ 94% system remains secure for 1 year
+        </div>
+        <div class="formula">
+X + Y > Z ⟹ Immediate Migration Required
+
+Where:
+  X = 15 years (data confidentiality shelf-life)
+  Y = 2 years (system migration duration)
+  Z = 10 years (threat horizon to Q-Day)
+  
+  15 + 2 = 17 > 10 ⟹ ⚠️ CRITICAL: IMMEDIATE ACTION REQUIRED
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📚 Core Documentation</h2>
+        <div class="file-grid">
+            <a href="README.md" class="file-link">
+                📖 README.md<br>
+                <small>Quick start and overview</small>
+            </a>
+            <a href="ARCHITECTURE.md" class="file-link">
+                🏗️ ARCHITECTURE.md<br>
+                <small>Complete technical specification</small>
+            </a>
+            <a href="DEPLOYMENT.md" class="file-link">
+                🚀 DEPLOYMENT.md<br>
+                <small>Production environment guide</small>
+            </a>
+            <a href="CHANGELOG.md" class="file-link">
+                📝 CHANGELOG.md<br>
+                <small>Version history</small>
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Layer Specifications</h2>
+        <div class="file-grid">
+            <a href="layer-specifications/layer-1-specification.md" class="file-link">
+                Layer 1: Identity Verification<br>
+                <small>FIDO2 + ML-DSA-87 MFA</small>
+            </a>
+            <a href="layer-specifications/layer-2-specification.md" class="file-link">
+                Layer 2: Authorization<br>
+                <small>RBAC + PQC Tokens</small>
+            </a>
+            <a href="layer-specifications/layer-3-specification.md" class="file-link">
+                Layer 3: Network Security<br>
+                <small>X25519Kyber1024 TLS</small>
+            </a>
+            <a href="layer-specifications/layer-4-specification.md" class="file-link">
+                Layer 4: Data Encryption<br>
+                <small>Hybrid Envelope</small>
+            </a>
+            <a href="layer-specifications/layer-5-specification.md" class="file-link">
+                Layer 5: Database Security<br>
+                <small>RLS + Audit Chain</small>
+            </a>
+            <a href="layer-specifications/layer-6-specification.md" class="file-link">
+                Layer 6: PHI Isolation<br>
+                <small>FHIR R4 + PQC Auth</small>
+            </a>
+            <a href="layer-specifications/layer-7-specification.md" class="file-link">
+                Layer 7: Self-Healing<br>
+                <small>Morphogenetic Defense</small>
+            </a>
+            <a href="layer-specifications/layer-8-post-quantum.md" class="file-link">
+                Layer 8: Post-Quantum<br>
+                <small>NIST PQC Orchestration</small>
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>💻 Reference Implementations</h2>
+        <div class="file-grid">
+            <a href="code/python/layer4_hybrid_envelope.py" class="file-link">
+                🐍 Layer 4 - Python<span class="code-badge">Python</span><br>
+                <small>Hybrid envelope encryption</small>
+            </a>
+            <a href="code/python/layer8_pqc_orchestration.py" class="file-link">
+                🐍 Layer 8 - Python<span class="code-badge">Python</span><br>
+                <small>PQC orchestration</small>
+            </a>
+            <a href="code/go/layer2_authz/capability_tokens.go" class="file-link">
+                🐹 Layer 2 - Go<span class="code-badge">Go</span><br>
+                <small>Authorization tokens</small>
+            </a>
+            <a href="code/sql/schema/patient_records_v2.sql" class="file-link">
+                🗄️ Layer 5 - SQL<span class="code-badge">PostgreSQL</span><br>
+                <small>Database schema</small>
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>⚖️ Compliance & Documentation</h2>
+        <div class="file-grid">
+            <a href="docs/threat-model.md" class="file-link">
+                🎯 Threat Model<br>
+                <small>Attack vectors and defenses</small>
+            </a>
+            <a href="docs/glossary.md" class="file-link">
+                📖 Glossary<br>
+                <small>Industry terminology</small>
+            </a>
+            <a href="compliance/README.md" class="file-link">
+                ✅ Compliance Artifacts<br>
+                <small>NIST, HIPAA, GDPR</small>
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>👤 Contact</h2>
+        <p>
+            <strong>Jason Jarmacz</strong> - NeuroDivergent AI Evolution Strategist<br>
+            Trade Momentum LLC | Neurodivergence.Works R&D Division<br>
+            Email: <a href="mailto:jason@neurodivergence.works" style="color: #60a5fa;">jason@neurodivergence.works</a>
+        </p>
+        <p style="font-style: italic; color: #9ca3af;">
+            "Advancing with strict moral compass, letting discoveries define ambitions."
+        </p>
+    </div>
+
+    <div style="text-align: center; margin-top: 40px; padding: 20px; color: #6b7280;">
+        <small>
+            © 2025 Trade Momentum LLC | Neurodivergence.Works<br>
+            Eight-Layer Quantum-Hardened Security Architecture v2.0<br>
+            Proprietary and Confidential
+        </small>
+    </div>
+</body>
+</html>

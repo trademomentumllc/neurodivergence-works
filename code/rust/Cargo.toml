@@ -1,0 +1,13 @@
+[package]
+name = "eight-layer-pqc"
+version = "2.0.0"
+edition = "2021"
+authors = ["Jason Jarmacz <jason@neurodivergence.works>"]
+
+[dependencies]
+pqcrypto-kyber = "0.8"
+pqcrypto-traits = "0.3"
+x25519-dalek = "2.0"
+hkdf = "0.12"
+sha2 = "0.10"
+rand_core = { version = "0.6", features = ["getrandom"] }

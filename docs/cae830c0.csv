@@ -1,0 +1,7 @@
+Role/Committee,Responsibilities,Reporting Structure,Key Deliverables
+Board of Directors,Strategic oversight; Risk acceptance and appetite; Resource allocation approval; Fiduciary oversight,Quarterly reviews to full board,Approved quantum strategy; Budget authorization; Risk appetite statement; Fiduciary documentation
+Quantum Steering Committee,Cross-functional coordination; Policy decisions; Vendor relationship management; Escalation resolution,Monthly reports to Board/C-Suite,Migration roadmap; Policy updates and standards; Progress reports; Risk registers
+Executive Sponsor (CISO/CTO),Overall program accountability; Stakeholder alignment; Escalation management; Strategic direction,Direct reports to CEO and Board,Strategic plans and roadmaps; Risk assessments; Compliance status reports; Budget management
+Quantum Migration Lead,Day-to-day execution; Vendor coordination; Technical oversight; Project management,Weekly updates to Executive Sponsor,Project plans and schedules; Inventory updates; Implementation reports; Issue logs
+Technical Working Groups,Cryptographic discovery; Testing and validation; Implementation; Performance monitoring,Bi-weekly reports to Migration Lead,Technical assessments; Test results and validation; Deployment documentation; Performance metrics
+Vendor Management Team,Supplier assessment; Contract negotiations; Compliance verification; SLA management,Monthly reports to Steering Committee,Vendor readiness reports; SLA agreements; Integration plans; Risk assessments
